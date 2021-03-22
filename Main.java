@@ -12,7 +12,7 @@ public class Main {
 
     
     static void doTask1() {
-        String[] words = {"comics", "book", "book", "storybook", "comix", "comiX"};
+        String[] words = {"comics", "book", "book", "books", "Book", "storybook", "comix", "comiX"};
 
         Set<String> uniqueWords = new HashSet<>(Arrays.asList(words));
 
